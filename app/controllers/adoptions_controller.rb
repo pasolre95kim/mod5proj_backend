@@ -1,4 +1,5 @@
 class AdoptionsController < ApplicationController
+  skip_before_action :authorized
 
   def index
     render json: Adoption.all
@@ -17,6 +18,9 @@ class AdoptionsController < ApplicationController
     render json: Adoption.find(params[:id])
   end
 
+  def destroy
+    render json: Adoption.find(params[:id]).destroy
+  end
 
 private
 

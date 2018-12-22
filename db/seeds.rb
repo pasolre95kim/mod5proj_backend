@@ -1,5 +1,5 @@
-User.create(username: "Admin", password:"password", email: "admin@email.com", phone_number: "012-345-6789")
-User.create(username: "client1", password: "password1", email: "client1@email.com", phone_number: "123-456-7890")
+User.create(username: "Admin", password:"password")
+User.create(username: "client1", password: "password1")
 
 #DOGS ---------------------------------------------------------
 
@@ -9,10 +9,10 @@ Animal.create(name:"Bella",
   breed: "Beagle",
   gender: "F",
   adoptionFee: "$350",
-  image: "https://g77v3827gg2notadhhw9pew7-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/pet-1902904_1920-1024x668.jpg",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs, children.")
+  image: "http://www.dogzone.com/images/breeds/beagle.jpg",
+  about: "House-Trained: Yes",
+  health: "Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs, children.")
 
 Animal.create(name: "Bear",
   age: "Puppy",
@@ -20,22 +20,21 @@ Animal.create(name: "Bear",
   breed: "Terrier & Plott Hound Mix",
   gender: "M",
   adoptionFee: "$350",
-  image: "https://cdn-www.dailypuppy.com/dog-images/zadie-and-levi-the-pit-bull-mixes-3_74871_2014-06-03_w450.jpg",
-about:"HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs")
+  image: "https://doggiedesigner.com/wp-content/uploads/2018/04/206.2.jpg",
+  about:"House-Trained: Yes",
+  health: "Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs")
 
 Animal.create(name: "Molly",
-  age: "2",
+  age: "Puppy",
   species: "Dog",
   breed: "Shih Tzu mix",
   gender: "F",
   adoptionFee: "$350",
-  image: "https://images.mentalfloss.com/sites/default/files/styles/insert_main_wide_image/public/iStock_89161059_SMALL.jpg",
-about:" HOUSE-TRAINED: Almost!
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs"
-)
+  image: "http://www.albertrabil.com/wp-content/uploads/cache-b72f2b2fb0b641cef7def3dc956d2486/2016/02/You-can-register-a-Maltese-Shih-Tzu-Mix-to-American-Canine-Hybrid-Club-but-not-to-American-Kennel-Club.jpg",
+  about:" House-Trained: Almost!",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs")
 
 Animal.create(name: "Autumn",
   age: "2",
@@ -43,10 +42,10 @@ Animal.create(name: "Autumn",
   breed: "Labrador Mix",
   gender: "F",
   adoptionFee: "$300",
-  image: "http://buzzsharer.com/wp-content/uploads/2016/01/Labrador-Retriever-American-Pit-Bull-Terrier-mix.jpg",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs. No Children preferred")
+  image: "https://eaglenewsnetwork.org/wp-content/uploads/2018/04/1484840093-yellow-lab.jpg",
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs. No Children")
 
 Animal.create(name: "Sammy",
   age: "3",
@@ -54,10 +53,10 @@ Animal.create(name: "Sammy",
   breed: "Black Labrador Retriever",
   gender: "F",
   adoptionFee: "$300",
-  image: "https://ybxzcgnc7b-flywheel.netdna-ssl.com/wp-content/uploads/2017/04/old-black-lab.jpg",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs.")
+  image: "https://i.pinimg.com/originals/be/4f/20/be4f208b4b6e9632a7828363c977cdc9.jpg",
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs")
 
 Animal.create(name: "Lucy",
   age: "4",
@@ -66,9 +65,9 @@ Animal.create(name: "Lucy",
   gender: "F",
   adoptionFee: "$300",
   image: "https://i.pinimg.com/originals/50/9c/a8/509ca89dde59b6bde06df6a41bae8f29.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs, cats")
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs & cats")
 
 Animal.create(name: "Benji",
   age: "3",
@@ -77,9 +76,9 @@ Animal.create(name: "Benji",
   gender: "M",
   adoptionFee: "$200",
   image: "https://www.howpup.com/wp-content/uploads/2017/12/Apple-Head-Chihuahua.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: attentive household")
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: attentive household")
 
 Animal.create(name: "Bolt",
   age: "1",
@@ -88,9 +87,9 @@ Animal.create(name: "Bolt",
   gender: "M",
   adoptionFee: "$350",
   image: "https://bobandsuewilliams.com/images/chow-chow-samoyed-14.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, not yet neutered.
-GOOD IN A HOME WITH: Children")
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, not yet neutered",
+  preferredHome: "Good in home with: Children")
 
 Animal.create(name: "Buddy",
   age: "Puppy",
@@ -98,10 +97,10 @@ Animal.create(name: "Buddy",
   breed: "Terrier Mix",
   gender: "M",
   adoptionFee: "$400",
-  image: "https://1.bp.blogspot.com/-whQUAkIueHw/WY6GPjWPMeI/AAAAAAAAtqo/_fPHzfhfqn0CMJjBLIdC5MGk62wGzpQ4wCLcBGAs/s1600/columbus3.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs & chidren")
+  image: "https://vetstreet-brightspot.s3.amazonaws.com/b0/d0f060a7e411e0a0d50050568d634f/file/Norwich-Terrier-4-645mk062711.jpg ",
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs & chidren")
 
 Animal.create(name: "Teddy",
   age: "Puppy",
@@ -109,10 +108,10 @@ Animal.create(name: "Teddy",
   breed: "Poodle Mix",
   gender: "M",
   adoptionFee: "$400",
-  image: "https://i.pinimg.com/originals/78/b9/9b/78b99b0601ab590fa42d5ccfb8780a78.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs & chidren")
+  image: "https://poodlemixclub.com/wp-content/uploads/2018/03/chi-poo-chihuahua-poodle-mix-dog-1024x681.jpg ",
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs & chidren")
 
 Animal.create(name: "Olive",
   age: "2",
@@ -121,9 +120,9 @@ Animal.create(name: "Olive",
   gender: "F",
   adoptionFee: "$375",
   image: "https://www.germanshepherds.com/forum/attachments/general-information/48394d1363840233-can-someone-help-me-figure-out-what-my-dog-mixed-img957323.jpg ",
-  about: "HOUSE-TRAINED: Yes
-HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other dogs & chidren")
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date, spayed / neutered",
+  preferredHome: "Good in home with: Other dogs & chidren")
 
 #-------------------------------------------------------------
 # CATS
@@ -135,8 +134,9 @@ Animal.create(name: "Coco",
   gender: "M",
   adoptionFee: "$100",
   image: "http://g.petango.com/photos/2902/c04ebef8-d396-4514-9f03-b081a8aaf099.jpg ",
-  about: "HEALTH: Vaccinations up to date, not yet spayed / neutered.
-GOOD IN A HOME WITH: Possibly other dogs & chidren")
+  about: "House Trained: No",
+  health: "Vaccinations up to date, not yet spayed / neutered",
+  preferredHome: "Good in home with: Possibly other dogs & chidren")
 
 Animal.create(name: "Misty",
   age: "7 months",
@@ -144,9 +144,10 @@ Animal.create(name: "Misty",
   breed: "Domestic Short Hair",
   gender: "F",
   adoptionFee: "$100",
+  health: " Vaccinations up to date",
   image: "https://mediaassets.abc15.com/photo/2018/05/30/emoji_1527690802481_88375805_ver1.0_640_480.jpg",
-  about: "HEALTH: Vaccinations up to date, not yet spayed / neutered.
-GOOD IN A HOME WITH: unknown")
+  about: " Vaccinations up to date, not yet spayed / neutered",
+  preferredHome: "Good in home with: unknown")
 
 Animal.create(name: "Oscar",
   age: "Adult",
@@ -154,9 +155,10 @@ Animal.create(name: "Oscar",
   breed: "Domestic Short Hair",
   gender: "M",
   adoptionFee: "$100",
-  image: "http://3.bp.blogspot.com/_UwT_WV8STkQ/TRJsefi3MEI/AAAAAAAADqs/fNp3CUsag2Q/s1600/Nutmegcatdec10.JPG",
-  about: "HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other Cats")
+  image: "https://cdn.petbarn.com.au/petspot/wp-content/uploads/2011/09/domestic-shorthair-cat-PB500-Blog-Genral-In-Post-800x533px.jpg",
+  about: " Vaccinations up to date",
+  health: "spayed / neutered",
+  preferredHome: "Good in home with: Other Cats")
 
 Animal.create(name: "Simba",
   age: "7 months",
@@ -164,10 +166,10 @@ Animal.create(name: "Simba",
   breed: "American Short Hair",
   gender: "F",
   adoptionFee: "$100",
-  image: "https://salinapost.com/wp-content/uploads/YoYo.jpg",
-  about: "HOUSE-TRAINED: Yes
-  HEALTH: Vaccinations up to date, not yet spayed / neutered. Diabetes
-GOOD IN A HOME WITH: Children")
+  image: "http://1.bp.blogspot.com/-OAWFWZBS-b8/UBDs7DuyeUI/AAAAAAAANO4/iDgEkf0-enA/s1600/European+Shorthair.JPG",
+  about: "House-Trained: Yes",
+  health: " Vaccinations up to date not yet spayed / neutered. Diabetes",
+  preferredHome: "Good in home with: Children")
 
 Animal.create(name: "Milo",
   age: "3",
@@ -176,8 +178,9 @@ Animal.create(name: "Milo",
   gender: "M",
   adoptionFee: "$100",
   image: "https://kittentoob.com/wp-content/uploads/2017/03/American-Shorthair-750x426.jpg",
-  about: "HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other cats")
+  about: " Vaccinations up to date",
+  health: "spayed / neutered",
+  preferredHome: "Good in home with: Other cats")
 
 Animal.create(name: "Leo",
   age: "10 months",
@@ -185,9 +188,10 @@ Animal.create(name: "Leo",
   breed: "Domestic Medium Hair & Domestic Long Hair Mix",
   gender: "M",
   adoptionFee: "$125",
-  image: "https://i.pinimg.com/originals/20/66/b0/2066b082a25a99b26d7fd04dffde5598.jpg",
-  about: "HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Other cats, Children")
+  image: "https://purringtonscatlounge.com/wp-content/uploads/2018/04/6561.jpg",
+  about: " Vaccinations up to date",
+  health: "spayed / neutered",
+  preferredHome: "Good in home with: Other cats, Children")
 
 #-----------------------------------------------------------------------
 #Other Pets
@@ -199,8 +203,9 @@ Animal.create(name: "Piggy",
   gender: "M",
   adoptionFee: "$30",
   image: "https://www.petmd.com/sites/default/files/guide-to-guinea-pigs.jpg",
-  about: "HEALTH: Vaccinations up to date, not yet spayed / neutered.
-GOOD IN A HOME WITH: Children")
+  about: " Vaccinations up to date",
+  health: "not yet spayed / neutered",
+  preferredHome: "Good in home with: Children")
 
 Animal.create(name: "Wilbur",
   age: "5 months",
@@ -209,8 +214,9 @@ Animal.create(name: "Wilbur",
   gender: "M",
   adoptionFee: "$20",
   image: "https://d3pz1jifuab5zg.cloudfront.net/2015/10/12095904/hamster-held-hands-ThinkstockPhotos-514298845.jpg",
-  about: "HEALTH: Vaccinations up to date, spayed / neutered.
-GOOD IN A HOME WITH: Children")
+  about: " Vaccinations up to date",
+  health: "spayed / neutered",
+  preferredHome: "Good in home with: Children")
 
 Animal.create(name: "Cookie",
   age: "11 months",
@@ -219,8 +225,9 @@ Animal.create(name: "Cookie",
   gender: "F",
   adoptionFee: "$25",
   image: "https://lindsaywildlife.org/wp-content/uploads/2015/04/Guinea-pigs-Chip-Dash-06-Hara.jpg",
-  about: "HEALTH: Vaccinations up to date
-GOOD IN A HOME WITH: Other Guinea Pigs")
+  about: "Vaccinations up to date",
+  health: "not yet spayed / neutered",
+  preferredHome: "Good in home with: Other Guinea Pigs")
 
 Animal.create(name: "Curly",
   age: "2",
@@ -229,7 +236,9 @@ Animal.create(name: "Curly",
   gender: "M",
   adoptionFee: "$20",
   image: "https://www.petmd.com/sites/default/files/hamster-in-palm-of-hand_333620312_0.jpg",
-  about: "GOOD IN A HOME WITH: Other Hamsters")
+  about: "Vaccinations up to date",
+  health: " Vaccinations up to date",
+  preferredHome: "Good in home with: Other Hamsters")
 
 Animal.create(name: "Abby",
   age: "1",
@@ -237,9 +246,10 @@ Animal.create(name: "Abby",
   breed: "Guinea Pig Mix",
   gender: "F",
   adoptionFee: "$25",
+  health: " Vaccinations up to date",
   image: "https://www.kveller.com/wp-content/uploads/2018/08/guinea-pig-2412069_960_720.jpg",
-  about: "HEALTH: Vaccinations up to date.
-GOOD IN A HOME WITH: Children, Other Guinea Pigs")
+  about: "Vaccinations up to date",
+  preferredHome: "Good in home with: Children, Other Guinea Pigs")
 
 Animal.create(name: "Bunny",
   age: "1",
@@ -247,10 +257,11 @@ Animal.create(name: "Bunny",
   breed: "Lionhead & Dwarf Mix",
   gender: "F",
   adoptionFee: "$90",
-  image: "https://i.pinimg.com/originals/8b/95/40/8b954030dedfbb0e506037065a0ed027.jpg",
-  about: "HEALTH: Vaccinations up to date.
-  COAT LENGTH: Long
-  HOUSE-TRAINED: Yes")
+  image: "https://www.petsfriend.ca/media/k2/items/cache/da3dd9e0dfc073a9278eecf902a909a6_XL.jpg",
+  about: "COAT LENGTH: Long",
+  health: " Vaccinations up to date",
+  preferredHome: "House-Trained: Yes" )
+
 
 Animal.create(name: "Tammy",
   age: "5 months",
@@ -259,9 +270,9 @@ Animal.create(name: "Tammy",
   gender: "F",
   adoptionFee: "$90",
   image: "https://cf.ltkcdn.net/small-pets/images/std/204252-675x450-dwarf-rabbit_new.jpg",
-  about: "HEALTH: Vaccinations up to date.
-  COAT LENGTH: Long
-  HOUSE-TRAINED: Yes")
+  about: "COAT LENGTH: Long",
+  health: "Vaccinations up to date",
+  preferredHome: "House-Trained: Yes")
 
 Animal.create(name: "Tommy",
   age: "6 months",
@@ -270,9 +281,9 @@ Animal.create(name: "Tommy",
   gender: "M",
   adoptionFee: "$90",
   image: "https://upload.wikimedia.org/wikipedia/en/c/c3/Ninja_eating_a_leaf.JPG",
-  about: "HEALTH: Vaccinations up to date.
-  COAT LENGTH: Long
-  HOUSE-TRAINED: Yes")
+  about: "COAT LENGTH: Long",
+  health: "Vaccinations up to date",
+  preferredHome: "House-Trained: Yes")
 
 Animal.create(name: "Chewy",
   age: "7 months",
@@ -281,9 +292,9 @@ Animal.create(name: "Chewy",
   gender: "M",
   adoptionFee: "$90",
   image: "http://images6.fanpop.com/image/photos/39300000/Blue-Sable-Marten-Holland-Lop-Mix-bunny-rabbits-39310284-1280-853.jpg",
-  about: "HEALTH: Vaccinations up to date.
-  COAT LENGTH: Short
-  HOUSE-TRAINED: Yes")
+  about: "COAT LENGTH: Short",
+  health: "Vaccinations up to date",
+  preferredHome: "House-Trained: Yes")
 
 #------------------------------------------------------------------------------------------------------
 

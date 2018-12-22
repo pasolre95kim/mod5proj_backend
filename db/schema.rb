@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_12_155034) do
+ActiveRecord::Schema.define(version: 2018_12_21_214737) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 2018_12_12_155034) do
     t.string "breed"
     t.string "gender"
     t.string "about"
+    t.string "health"
+    t.string "preferredHome"
     t.string "adoptionFee"
     t.string "image"
     t.datetime "created_at", null: false
@@ -47,11 +49,12 @@ ActiveRecord::Schema.define(version: 2018_12_12_155034) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.string "password"
     t.string "phone_number"
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "password_digest"
+    t.boolean "admin"
   end
 
   add_foreign_key "adoptions", "animals"

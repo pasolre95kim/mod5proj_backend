@@ -7,6 +7,8 @@ class CreateAnimals < ActiveRecord::Migration[5.2]
       t.string :breed
       t.string :gender
       t.string :about
+      t.string :health
+      t.string :preferredHome
       t.string :adoptionFee
       t.string :image
       t.timestamps
