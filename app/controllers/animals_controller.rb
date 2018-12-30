@@ -1,4 +1,5 @@
 class AnimalsController < ApplicationController
+  skip_before_action :authorized
 
   def index
     render json: Animal.all
@@ -21,10 +22,12 @@ class AnimalsController < ApplicationController
     render json: Animal.find(params[:id]).destroy
   end
 
+
+
 private
 
   def animals_params
-    params.require(:animal).permit(:name, :age, :species, :breed, :gender, :about, :adoptionFee, :image)
+    params.require(:animal).permit(:name, :age, :species, :breed, :gender, :about, :adoptionFee, :image, :health, :preferredHome)
   end
 
 end
