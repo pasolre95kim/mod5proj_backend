@@ -22,8 +22,6 @@ class AnimalsController < ApplicationController
     render json: Animal.find(params[:id]).destroy
   end
 
-
-
 private
 
   def animals_params
