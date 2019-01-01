@@ -1,4 +1,4 @@
-User.create(username: "Admin", password:"password")
+User.create(username: "pasolre95kim", password:"admin", admin: true)
 User.create(username: "client1", password: "password1")
 
 #DOGS ---------------------------------------------------------
@@ -302,3 +302,25 @@ Animal.create(name: "Chewy",
 
 Adoption.create(user_id: 2, animal_id: 2)
 Adoption.create(user_id: 2, animal_id: 5)
+
+
+
+#----------------------------------------------------------------------------------------
+
+#Articles
+
+Article.create(title: "Five Common Misconceptions About Pet Adoption",
+  abstract: "We put together a list of common adoption myths, in the hopes that you can gently point friends toward this post when they talk about adding a pet to their family.",
+
+  body: "Myth #1: I don’t know what I’m getting
+There may in fact be more information available about an adoptable pet than one from a breeder or pet store.
+Many of the pets posted on Petfinder are in foster care. Foster parents live with their charges 24-7 and can often tell you, in detail, about the pet’s personality and habits. If the pet is at a shelter, the staff or volunteers may be able to tell you what he or she is like.
+At the very least, you can ask the staff if the pet was an owner surrender (rather than a stray) and, if so, what the former owner said about him or her. Quite often pets are given up because the owner faced financial or housing issues (more on that later).
+You can also ask about the health and behavioral evaluations the pet has undergone since arriving at the shelter. In contrast, pet store owners rarely have an idea of what a pet will be like in a home
+Myth #2: I can’t find what I want at a shelter
+If you can’t find the pet you’re looking for on Petfinder, don’t give up.
+Some shelters maintain waiting lists for specific breeds, so don’t be afraid to ask!
+There are also breed-specific rescues for just about every breed, and most of them post their pets on Petfinder.",
+
+  image: "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/86522359-pet-trust-primer-632x475.jpg"
+)
